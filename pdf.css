@@ -13100,7 +13100,7 @@ span.heading-a9 {
 }
 @media print {
   /* line 2, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .pull-lg-right, header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary {
+  .pull-lg-right, header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary, .alert-container, .alert-table-wrapper {
     display: none;
   }
 
