@@ -13111,12 +13111,15 @@ span.heading-a9 {
 
   /* line 13, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   h4 {
-    font-size: 11pt;
+    font-size: 13pt;
+  }
+  h5{
+    font-size: 11pt !important;
   }
 
   /* line 17, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   p, .annual-crime.table-index table tbody td {
-    font-size: 5pt !important;
+    font-size: 9pt !important;
   }
 
   /* line 23, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
@@ -13131,11 +13134,14 @@ span.heading-a9 {
 
   /* line 30, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   .card-alert h1, .card-alert h2, .card-alert h3, .card-alert h4, .card-alert h5, .card-alert small {
-    font-size: 10pt !important;
+    font-size: 9pt !important;
   }
   /* line 33, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   .card-alert h2, .card-alert h3 {
-    font-size: 14pt !important;
+    font-size: 11pt !important;
+  }
+  .card h1{
+    font-size: 13pt;
   }
 
   /* line 37, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
@@ -13159,7 +13165,7 @@ span.heading-a9 {
   /* line 50, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   .section-header h4 {
     color: #000;
-    font-size: 20pt;
+    font-size: 17pt;
   }
 }
  @page {
