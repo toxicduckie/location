@@ -13106,15 +13106,15 @@ span.heading-a9 {
 
   /* line 9, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   h3 {
-    font-size: 15pt !important;
+    font-size: 13pt !important;
   }
 
   /* line 13, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   h4 {
-    font-size: 13pt;
+    font-size: 11pt;
   }
   h5{
-    font-size: 11pt !important;
+    font-size: 10pt !important;
   }
 
   /* line 17, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
@@ -13134,14 +13134,14 @@ span.heading-a9 {
 
   /* line 30, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   .card-alert h1, .card-alert h2, .card-alert h3, .card-alert h4, .card-alert h5, .card-alert small {
-    font-size: 9pt !important;
+    font-size: 8pt !important;
   }
   /* line 33, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   .card-alert h2, .card-alert h3 {
-    font-size: 11pt !important;
+    font-size: 10pt !important;
   }
   .card h1{
-    font-size: 13pt;
+    font-size: 11pt;
   }
 
   /* line 37, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
@@ -13165,7 +13165,7 @@ span.heading-a9 {
   /* line 50, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   .section-header h4 {
     color: #000;
-    font-size: 17pt;
+    font-size: 13pt;
   }
 }
  @page {
