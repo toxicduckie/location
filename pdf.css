@@ -13098,7 +13098,7 @@ span.heading-a9 {
     text-align: center;
   }
 }
-@media print {
+.pdf {
   @font-face {
   font-family: 'Open Sans';
   font-style: normal;
