@@ -13098,19 +13098,6 @@ span.heading-a9 {
     text-align: center;
   }
 }
-@page {
-  size: A4;
-  margin: 2cm;
-  padding: 2cm;
-  background: #cccccc;
-  font-size: 10pt;
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
-}
 @media print {
   /* line 18, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
   .pull-lg-right, header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary, .alert-container, .alert-table-wrapper {
@@ -13197,6 +13184,19 @@ span.heading-a9 {
     color: #000;
     font-size: 13pt;
   }
+}
+@page {
+  size: A4;
+  margin: 2cm;
+  padding: 2cm;
+  background: #cccccc;
+  font-size: 10pt;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
 }
 @media (min-width: 768px) {
   /* line 17, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_base.scss */
