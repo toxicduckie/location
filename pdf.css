@@ -13128,6 +13128,7 @@ span.heading-a9 {
   }
   .highcharts-container {
     max-width: 500px;
+    max-height: 800px;
   }
   .pull-lg-right {
     display: none;
