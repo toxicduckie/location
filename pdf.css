@@ -13124,10 +13124,10 @@ span.heading-a9 {
     font-size: 9pt !important;
   }
   .score{
-    font-size: 13pt;
+    font-size: 15pt;
   }
   .highcharts-container {
-    max-width: 500px;
+    max-width: 200px;
     max-height: 800px;
     font-size: 9pt;
   }
