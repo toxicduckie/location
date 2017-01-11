@@ -13098,102 +13098,83 @@ span.heading-a9 {
     text-align: center;
   }
 }
-@page {
-  font-size: 10pt;
-  size: A4;
-  margin: 2cm;
-  padding: 0;
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
-}
-@media print {
-  /* line 17, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .pull-lg-right, header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary {
-    display: none;
-  }
-
-  padding: 0 !important;
-  font-size: 12pt;
-  /* line 24, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  h3 {
-    font-size: 18pt !important;
-  }
-
-  /* line 28, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  h4 {
-    font-size: 16pt;
-  }
-
-  /* line 32, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  p, .annual-crime.table-index table tbody td {
-    font-size: 9pt !important;
-  }
-
-  /* line 35, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .col-xs-12 {
-    max-width: 5cm;
-  }
-
-  /* line 38, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .pull-lg-right {
-    display: none;
-  }
-
-  /* line 41, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .contains-chart {
-    max-width: 500px;
-  }
-
-  /* line 45, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .card-alert h1, .card-alert h2, .card-alert h3, .card-alert h4, .card-alert h5, .card-alert small {
-    font-size: 10pt !important;
-  }
-  /* line 48, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .card-alert h2, .card-alert h3 {
-    font-size: 14pt !important;
-  }
-
-  /* line 52, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .headerNeighborhood {
-    page-break-before: always;
-  }
-
-  /* line 55, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .assessment-card {
-    margin: 1mm 0;
-  }
-  /* line 57, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .assessment-card h4 {
-    font-size: 9pt;
-  }
-  /* line 59, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .assessment-card h4 span.em {
-    font-size: 7pt;
-  }
-  /* line 62, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .assessment-card h4 small {
-    font-size: 6pt;
-  }
-
-  /* line 67, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .section-header {
-    margin: 0 !important;
-  }
-  /* line 69, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
-  .section-header h4 {
-    color: #000;
-    font-size: 20pt;
-  }
-}
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
+ @media print {
+   /* line 2, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+-  .pull-lg-right, header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary {
++  .pull-lg-right, header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary, .alert-container, .alert-table-wrapper {
+     display: none;
+   }
+ 
+   /* line 9, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   h3 {
+     font-size: 13pt !important;
+   }
+ 
+   /* line 13, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   h4 {
+     font-size: 11pt;
+   }
+   h5{
+     font-size: 10pt !important;
+   }
+ 
+   /* line 17, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   p, .annual-crime.table-index table tbody td {
+     font-size: 9pt !important;
+   }
+ 
+   /* line 23, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .pull-lg-right {
+     display: none;
+   }
+ 
+   /* line 26, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .contains-chart {
+     max-width: 500px;
+   }
+ 
+   /* line 30, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .card-alert h1, .card-alert h2, .card-alert h3, .card-alert h4, .card-alert h5, .card-alert small {
+     font-size: 8pt !important;
+   }
+   /* line 33, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .card-alert h2, .card-alert h3 {
+     font-size: 10pt !important;
+   }
+   .card h1{
+     font-size: 11pt;
+   }
+ 
+   /* line 37, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .headerNeighborhood {
+     page-break-before: always;
+   }
+ 
+   /* line 41, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .assessment-card h4 {
+     font-size: 9pt;
+   }
+   /* line 43, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .assessment-card h4 span.em, .assessment-card h4 small {
+     font-size: 13pt;
+   }
+ 
+   /* line 48, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .section-header {
+     margin: 0 !important;
+   }
+   /* line 50, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_pdf.scss */
+   .section-header h4 {
+     color: #000;
+     font-size: 13pt;
+   }
+ }
+  @page {
+   size: A4;
+   margin: 2cm;
+   padding: 2cm;
+   background: #cccccc;
+   font-size: 10pt;
 }
 @media (min-width: 768px) {
   /* line 17, /Users/emilymallard/LocationInc/neighborhoodscout.com/app/assets/stylesheets/base/_base.scss */
