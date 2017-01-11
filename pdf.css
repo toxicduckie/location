@@ -13129,6 +13129,7 @@ span.heading-a9 {
   .highcharts-container {
     max-width: 500px;
     max-height: 800px;
+    font-size: 9pt;
   }
   .pull-lg-right {
     display: none;
@@ -13136,6 +13137,9 @@ span.heading-a9 {
 
   .contains-chart {
     max-width: 50%;
+  }
+  .pdf-half{
+    width: 50%;
   }
 
   .card-alert h1, .card-alert h2, .card-alert h3, .card-alert h4, .card-alert h5, .card-alert small {
