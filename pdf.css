@@ -13101,7 +13101,7 @@ span.heading-a9 {
 
 
 @media print {
-  body{
+  body, .row, .container{
     max-width: 720px;
   }
   .pull-lg-right, .primary-header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary, .alert-container, .alert-table-wrapper, .all-schools, .btn-schools, .gender-ratio-label.female img, .gender-ratio-label.male img {
