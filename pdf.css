@@ -13155,6 +13155,9 @@ span.heading-a9 {
   .headerNeighborhood {
     page-break-before: always;
   }
+  .pdf-height{
+    max-height: 600px;
+  }
 
   .assessment-card {
     margin: 1mm 0;
