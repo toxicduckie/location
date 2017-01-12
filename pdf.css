@@ -13129,14 +13129,12 @@ span.heading-a9 {
   .score{
     font-size: 13pt;
   }
-/*  .highcharts-container {
-    max-width: 500px;
-    max-height: 800px;
-    font-size: 9pt;
+  .index-card header {
+      padding: 2px;
   }
-  .highcharts-axis-labels {
-    font-size: 6pt;
-  }*/
+  .index-card header h5{
+    font-size: 15pt;
+  }
   .pull-lg-right {
     display: none;
   }
