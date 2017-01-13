@@ -13103,6 +13103,9 @@ span.heading-a9 {
   .pull-lg-right, .primary-header, .pull-xs-right, .search-primary, .map, .call-out-wrapper-tertiary, .pdf-none, .slide-out, .footer-primary, .alert-container, .alert-table-wrapper, .all-schools, .btn-schools {
     display: none;
   }
+  .no-break{
+    page-break-after: avoid;
+  }
 
   h3 {
     font-size: 13pt !important;
