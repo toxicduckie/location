@@ -13185,7 +13185,7 @@ span.heading-a9 {
       background-color: #eee;
     }
     @bottom {
-      content: counter(page);
+      content: counter(page, decimal);
     }
 }
 
