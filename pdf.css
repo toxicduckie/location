@@ -13185,8 +13185,7 @@ span.heading-a9 {
       background-color: #eee;
     }
     @bottom {
-      content: "footer";
-      background-color: #eee;
+      content: counter(page, lower-alpha);
     }
 }
 
