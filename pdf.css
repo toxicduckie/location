@@ -13107,7 +13107,6 @@ span.heading-a9 {
     page-break-after: avoid;
   }
   h1 {
-    display: none;
     flow: static(header);
   }
 
