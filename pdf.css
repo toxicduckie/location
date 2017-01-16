@@ -13183,7 +13183,10 @@ span.heading-a9 {
 @page {
   size: A4;
   font-size: 10pt;
+  margin-top: 2cm;
+  margin-bottom: 2cm;
   margin-inside: 3.5cm;
+  margin-outside: 2.5cm;
     @top {
       content: flow(header);
     }
