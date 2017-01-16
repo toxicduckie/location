@@ -13107,7 +13107,7 @@ span.heading-a9 {
     page-break-after: avoid;
   }
   .hello{
-      flow: static(header);
+    flow: static(header);
   }
 
   h3 {
@@ -13186,7 +13186,10 @@ span.heading-a9 {
     @top {
       content: flow(header);
     }
-    @bottom {
+    @bottom-left{
+      content: "Copyright © 2000-2016 Location, Inc®. All trademarks displayed in this report are property of Location, Inc®.";
+    }
+    @bottom-right{
       content: counter(page, decimal);
     }
 }
