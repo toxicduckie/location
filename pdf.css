@@ -13146,7 +13146,7 @@ span.heading-a9 {
     font-size: 11pt;
   }
 
-  .headerNeighborhood {
+  .headerBreak {
     page-break-before: always;
   }
   .pdf-height{
@@ -13182,7 +13182,6 @@ span.heading-a9 {
   font-size: 10pt;
     @top {
       content: "header";
-      background-color: #eee;
     }
     @bottom {
       content: counter(page, decimal);
