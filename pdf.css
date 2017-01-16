@@ -13182,7 +13182,7 @@ span.heading-a9 {
 
 @page {
   size: A4;
-  font-size: 10pt;
+  font-size: 8pt;
     @top {
       content: flow(header);
     }
