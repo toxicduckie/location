@@ -13108,6 +13108,7 @@ span.heading-a9 {
   }
   .hello{
     flow: static(header);
+    margin-bottom: 8px;
   }
 
   h3 {
@@ -13182,11 +13183,12 @@ span.heading-a9 {
 
 @page {
   size: A4;
-  font-size: 8pt;
+  font-size: 10pt;
     @top {
       content: flow(header);
     }
     @bottom-left{
+      font-size: 7pt;
       content: "Copyright © 2000-2016 Location, Inc®. All trademarks displayed in this report are property of Location, Inc®.";
     }
     @bottom-right{
