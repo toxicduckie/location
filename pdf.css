@@ -13106,6 +13106,10 @@ span.heading-a9 {
   .no-break{
     page-break-after: avoid;
   }
+  h1 {
+    display: none;
+    flow: static(header);
+  }
 
   h3 {
     font-size: 13pt !important;
@@ -13181,7 +13185,7 @@ span.heading-a9 {
   size: A4;
   font-size: 10pt;
     @top {
-      content: url(/assets/neighborhood-scout-email.png);
+      content: flow(header);
     }
     @bottom {
       content: counter(page, decimal);
