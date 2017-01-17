@@ -13115,11 +13115,9 @@ span.heading-a9 {
   thead, th {
     color: #5a5a5a !important;
   }
-
-  .pdf-margin{
-    margin-bottom: 25px;
+  .container{
+    margin-bottom: 25px !important;
   }
-
   h3 {
     font-size: 13pt !important;
   }
