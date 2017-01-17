@@ -13113,14 +13113,13 @@ span.heading-a9 {
     flow: static(header);
   }
   .pop-density-cell-info p, .pop-density-cell-info .annual-crime.table-index table tbody td, .annual-crime.table-index table tbody .pop-density-cell-info td{
-    color: #5a5a5a !important; ;
+    color: #5a5a5a !important;
+    font-weight: 700;
   }
   thead, th {
     color: #5a5a5a !important;
   }
-  .container{
-    margin-bottom: 25px !important;
-  }
+
   h3 {
     font-size: 13pt !important;
   }
@@ -13169,7 +13168,7 @@ span.heading-a9 {
 
   .assessment-card {
     margin: 1mm 0;
-    height: 50px;
+    height: 80px;
   }
   .assessment-card h4 {
     font-size: 9pt;
