@@ -13112,8 +13112,8 @@ span.heading-a9 {
   .hello{
     flow: static(header);
   }
-  .green thead {
-    background: #0195bc none repeat scroll 0 0;
+  thead {
+    color: #5a5a5a !important;
   }
 
   .pdf-margin{
