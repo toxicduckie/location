@@ -13112,6 +13112,13 @@ span.heading-a9 {
   .hello{
     flow: static(header);
   }
+  .green thead {
+    background: #0195bc none repeat scroll 0 0;
+  }
+
+  .pdf-margin{
+    margin-bottom: 25px;
+  }
 
   h3 {
     font-size: 13pt !important;
