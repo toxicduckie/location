@@ -13112,7 +13112,7 @@ span.heading-a9 {
   .hello{
     flow: static(header);
   }
-  thead {
+  thead, th {
     color: #5a5a5a !important;
   }
 
