@@ -13116,8 +13116,8 @@ span.heading-a9 {
     color: #5a5a5a !important;
     font-weight: 700;
   }
-  .row{
-    margin-bottom: 35px !important;
+  .row, .section-header{
+    margin: 20px 0 !important;
   }
   thead, th {
     color: #5a5a5a !important;
@@ -13181,10 +13181,6 @@ span.heading-a9 {
   }
   .assessment-card h4 small {
     font-size: 6pt;
-  }
-
-  .section-header {
-    margin: 0 !important;
   }
   .section-header h4 {
     color: #000;
