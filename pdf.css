@@ -13184,6 +13184,7 @@ span.heading-a9 {
   }
   .section-header{
     margin: 5px 0 !important;
+    background-color: transparent;
   }
   .section-header h4 {
     color: #000;
