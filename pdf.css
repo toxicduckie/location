@@ -13182,6 +13182,9 @@ span.heading-a9 {
   .assessment-card h4 small {
     font-size: 6pt;
   }
+  .section-header, .container{
+    border: none;
+  }
   .section-header{
     margin: 5px 0 !important;
     background-color: transparent;
